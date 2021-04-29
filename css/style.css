@@ -25,7 +25,11 @@ body {
   width: 250px;
   height: 400px;
 }
-
+#vistaGrande{
+  position: absolute;
+  top : 10%;
+  left : 30%;
+}
 .vistaGrande{
   display: none;
 }
