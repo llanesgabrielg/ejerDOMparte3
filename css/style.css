@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 100vw;
+  /* border: 1px solid black; */
+}
+.forma {
+  /* border: 1px solid black; */
+  width: 30%;
+  min-width: 200px;
+  /* height: 200px; */
+  box-shadow:-1px 1em 4em 2px rgb(0 0 0 / 10%);
+}
+.contenedor {
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+  /* align-content: center; */
+}
+.imagen{
+  width: 250px;
+  height: 400px;
+}
+
+.vistaGrande{
+  display: none;
+}
